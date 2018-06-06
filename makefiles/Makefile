@@ -1,7 +1,7 @@
 # Set compiler
 CC=g++
 
-#Comile flags (-c to output object file .o)
+#Compile flags (-c to output object file .o)
 CFLAGS=-c -Wall
 
 all: main.exe
