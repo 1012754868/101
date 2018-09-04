@@ -1,7 +1,10 @@
 #ifndef CIRCLE_H
 #define CIRCLE_H
+#include <iostream>
 
 #define PI 3.14159265
+
+using namespace std;
 
 class Circle {
  public:
