@@ -1,5 +1,12 @@
 #include "Circle.h"
+#include <iostream>
 
-void Circle::set_radius(float radius) { _radius = radius; }
+using namespace std;
 
-float Circle::get_area() { return PI * _radius * _radius; }
+void Circle::set_radius(float radius) {
+    _radius = radius; 
+}
+
+float Circle::get_area() { 
+    return PI * _radius * _radius;
+}
